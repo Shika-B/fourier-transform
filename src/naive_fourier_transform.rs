@@ -1,4 +1,4 @@
-use crate::utility::round;
+use crate::utilities::round;
 use num::complex::Complex;
 use std::f64::consts::PI;
 

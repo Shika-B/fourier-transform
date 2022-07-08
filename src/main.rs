@@ -1,5 +1,5 @@
 mod naive_fourier_transform;
-mod utility;
+mod utilities;
 use naive_fourier_transform::naive_fourier_transform;
 use plotlib::page::Page;
 use plotlib::repr::Plot;
@@ -33,23 +33,18 @@ fn generate_sin_wave(range: usize, harmonic: i16) -> Vec<f64> {
     v
 }
 
-fn generate_cos_wave(range: usize, harmonic: i16) -> Vec<f64> {
+/*fn generate_cos_wave(range: usize, harmonic: i16) -> Vec<f64> {
     let mut v = vec![];
     for i in 0..range {
         v.push((2.0 * PI * (harmonic as f64 * i as f64) / (range as f64)).cos());
     }
     v
-}
+}*/
 
 fn main() {
-    /*let file: Vec<u8> = vec![];
-    let wave = Wave::new(&file);
-    println!("{:#?}", wave.header);
-    */
     let plot_size = 100;
 
     let sinwave = generate_sin_wave(plot_size, 3);
-    let coswave = generate_cos_wave(plot_size, 3);
 
     let frequencies = naive_fourier_transform(&sinwave);
 
@@ -91,11 +86,5 @@ fn main() {
     Page::single(&view3)
         .save("plots/cos_frequencies.svg")
         .unwrap();
-
-    /*println!("{:?}", &sinwave);
-    println!("{:?}", &frequencies);
-    println!("{:?}", &coswave);
-    println!("{:?}", naive_fourier_transform(&coswave));
-    */
-    println!("all good");
+    println!("Done !");
 }
