@@ -6,11 +6,11 @@ mod utilities;
 use num::complex::Complex;
 use plotlib::page::Page;
 
+use fast_fourier_transform::fast_fourier_transform;
 use naive_fourier_transform::naive_fourier_transform;
 use plot::view_from_data;
-use std::f64::consts::PI;
 
-use crate::fast_fourier_transform::fast_fourier_transform;
+use std::f64::consts::PI;
 
 const RED: &'static str = "#DD3355";
 const BLUE: &'static str = "#4287f5";
@@ -24,9 +24,11 @@ fn generate_sin_wave(range: usize, harmonic: i16) -> Vec<f64> {
     }
     v
 }
+
 fn fourier_transforms(data: &mut Vec<f64>) -> (Vec<Complex<f64>>, Vec<Complex<f64>>) {
     (fast_fourier_transform(data), naive_fourier_transform(data))
 }
+
 fn main() {
     // Plot only 128 points
     let plot_size = 1023;

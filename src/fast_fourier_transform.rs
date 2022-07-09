@@ -15,7 +15,6 @@ pub fn fast_fourier_transform(data: &mut Vec<f64>) -> Vec<Complex<f64>> {
 
     // Pad data with zeroes so that data.len() is a power of 2
     data.resize(2usize.pow(pow2), 0.0);
-
     let mut v = fast_fourier_transform_2(&data, 0, data.len(), 1);
     for i in 0..v.len() {
         v[i] = round_complex(v[i], 2);
@@ -24,9 +23,14 @@ pub fn fast_fourier_transform(data: &mut Vec<f64>) -> Vec<Complex<f64>> {
     v
 }
 
-// Implementation based on https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm
-// The variable "n" in the wiki pseudo is called "size" here, and "s" is "index_jump"
-// The start variable is here to do index arithmetic instead of copying Vecs.
+// Radix-2 implementation based on https://en.wikipedia.org/wiki/Cooley%E2%80%93Tukey_FFT_algorithm
+// The variable `n` in the wiki pseudo is named `size` here, and `s` is `index_jump`
+// The start variable is here to do index arithmetic
+//
+// A few optimization ideas:
+// Instead of allocating `size`-many vector with a single element, one could carry a mutable reference over a `size`-sized vector
+// Precompute the `complex_factor`s
+// Replace recursion with loops
 
 fn fast_fourier_transform_2(
     data: &[f64],
@@ -35,8 +39,11 @@ fn fast_fourier_transform_2(
     index_jump: usize,
 ) -> Vec<Complex<f64>> {
     let sizef64 = size as f64;
+
     if size == 1 {
-        return vec![Complex::new(data[start], 0.0)];
+        let mut v = Vec::with_capacity(1);
+        v.push(Complex::new(data[start], 0.0));
+        return v;
     }
 
     let mut even_indexed_fft = fast_fourier_transform_2(&data, start, size / 2, 2 * index_jump);
