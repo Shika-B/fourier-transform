@@ -31,9 +31,9 @@ fn fourier_transforms(data: &mut Vec<f64>) -> (Vec<Complex<f64>>, Vec<Complex<f6
 
 fn main() {
     // Plot only 128 points
-    let plot_size = 1023;
+    let plot_size = 128;
 
-    let mut sinwave = generate_sin_wave(plot_size, 50);
+    let mut sinwave = generate_sin_wave(plot_size, 5);
 
     let (frequencies, _frequencies2) = fourier_transforms(&mut sinwave);
 
