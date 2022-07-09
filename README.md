@@ -1,5 +1,5 @@
 # Signals and Fourier transform
-Toy implementations of discrete fourier transform algorithms, both in a naive and a fast way.
+Toy implementations of discrete naive and fast fourier transform algorithms. 
 
 Todo-list:
 - [x] Naive Fourier transform algorithm
