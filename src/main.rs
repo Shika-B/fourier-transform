@@ -37,34 +37,34 @@ fn main() {
 
     let (frequencies, _frequencies2) = fourier_transforms(&mut sinwave);
 
-    // Get the cos coefficients in Fourier series decomposition
-    let cos_frequencies = frequencies
+    // Get the real parts of the Fourier transform
+    let real_frequencies = frequencies
         .iter()
         .map(|z| 2.0 * z.re / plot_size as f64)
         .collect::<Vec<f64>>();
 
-    // Get the sin coefficients in Fourier series decomposition
-    let sin_frequencies = frequencies
+    // Get the imaginary parts of the Fourier transform
+    let imaginary_frequencies = frequencies
         .iter()
         .map(|z| 2.0 * z.im / plot_size as f64)
         .collect::<Vec<f64>>();
 
     // Create plotting objects
     let view_amplitudes = view_from_data(&sinwave, plot_size, RED);
-    let view_sin_frequencies = view_from_data(&sin_frequencies, plot_size, BLUE);
-    let view_cos_frequencies = view_from_data(&cos_frequencies, plot_size, GREEN);
+    let view_real_frequencies = view_from_data(&real_frequencies, plot_size, BLUE);
+    let view_imaginary_frequencies = view_from_data(&imaginary_frequencies, plot_size, GREEN);
 
     // Saves the plot in .svg files. Open plots.html in your browser if you want to see them laid out next to each others in a single webpage
     Page::single(&view_amplitudes)
-        .save("plots/amplitudes_plot.svg")
+        .save("plots/amplitude_plot.svg")
         .unwrap();
 
-    Page::single(&view_sin_frequencies)
-        .save("plots/sin_frequencies.svg")
+    Page::single(&view_real_frequencies)
+        .save("plots/real_frequencies.svg")
         .unwrap();
 
-    Page::single(&view_cos_frequencies)
-        .save("plots/cos_frequencies.svg")
+    Page::single(&view_imaginary_frequencies)
+        .save("plots/imaginary_frequencies.svg")
         .unwrap();
     println!("Done !");
 }
