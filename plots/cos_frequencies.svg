@@ -3,135 +3,155 @@
 <g>
 <g>
 <circle cx="0" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="4.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="9.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="14.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="19.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="24" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="28.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="33.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="38.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="43.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="48" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="52.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="57.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="62.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="67.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="72" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="76.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="81.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="86.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="91.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="96" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="100.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="105.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="110.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="115.2" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="3.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="7.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="11.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="15" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="18.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="22.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="26.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="30" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="33.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="37.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="41.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="45" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="48.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="52.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="56.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="60" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="63.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="67.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="71.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="78.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="82.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="86.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="90" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="93.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="97.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="101.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="105" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="108.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="112.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="116.25" cy="-170" fill="#34eb56" r="1.5"/>
 <circle cx="120" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="124.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="129.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="134.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="139.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="144" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="148.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="153.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="158.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="163.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="168" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="172.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="177.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="182.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="187.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="192" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="196.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="201.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="206.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="211.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="216" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="220.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="225.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="230.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="235.2" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="123.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="127.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="131.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="135" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="138.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="142.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="146.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="150" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="153.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="157.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="161.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="165" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="168.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="172.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="176.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="180" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="183.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="187.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="191.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="195" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="198.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="202.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="206.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="210" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="213.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="217.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="221.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="225" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="228.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="232.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="236.25" cy="-170" fill="#34eb56" r="1.5"/>
 <circle cx="240" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="244.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="249.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="254.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="259.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="264" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="268.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="273.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="278.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="283.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="288" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="292.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="297.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="302.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="307.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="312" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="316.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="321.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="326.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="331.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="336" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="340.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="345.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="350.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="355.2" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="243.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="247.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="251.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="255" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="258.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="262.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="266.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="270" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="273.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="277.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="281.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="285" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="288.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="292.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="296.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="300" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="303.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="307.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="311.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="315" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="318.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="322.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="326.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="330" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="333.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="337.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="341.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="345" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="348.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="352.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="356.25" cy="-170" fill="#34eb56" r="1.5"/>
 <circle cx="360" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="364.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="369.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="374.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="379.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="384" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="388.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="393.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="398.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="403.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="408" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="412.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="417.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="422.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="427.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="432" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="436.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="441.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="446.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="451.2" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="456" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="460.8" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="465.6" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="470.4" cy="-170" fill="#34eb56" r="1.5"/>
-<circle cx="475.2" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="363.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="367.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="371.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="375" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="378.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="382.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="386.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="390" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="393.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="397.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="401.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="405" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="408.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="412.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="416.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="420" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="423.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="427.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="431.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="435" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="438.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="442.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="446.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="450" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="453.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="457.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="461.25" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="465" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="468.75" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="472.5" cy="-170" fill="#34eb56" r="1.5"/>
+<circle cx="476.25" cy="-170" fill="#34eb56" r="1.5"/>
 </g>
 </g>
 <g>
 <g>
 <line stroke="black" stroke-width="1" x1="0" x2="0" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="96" x2="96" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="192" x2="192" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="288" x2="288" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="384" x2="384" y1="0" y2="10"/>
-<line stroke="black" stroke-width="1" x1="480" x2="480" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="150" x2="150" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="300" x2="300" y1="0" y2="10"/>
+<line stroke="black" stroke-width="1" x1="450" x2="450" y1="0" y2="10"/>
 </g>
 <line stroke="black" stroke-width="1" x1="0" x2="480" y1="0" y2="0"/>
 <g>
 <text font-size="12" text-anchor="middle" x="0" y="20">
 0
 </text>
-<text font-size="12" text-anchor="middle" x="96" y="20">
-20
-</text>
-<text font-size="12" text-anchor="middle" x="192" y="20">
+<text font-size="12" text-anchor="middle" x="150" y="20">
 40
 </text>
-<text font-size="12" text-anchor="middle" x="288" y="20">
-60
-</text>
-<text font-size="12" text-anchor="middle" x="384" y="20">
+<text font-size="12" text-anchor="middle" x="300" y="20">
 80
 </text>
-<text font-size="12" text-anchor="middle" x="480" y="20">
-100
+<text font-size="12" text-anchor="middle" x="450" y="20">
+120
 </text>
 </g>
 <text font-size="12" text-anchor="middle" x="240" y="30">

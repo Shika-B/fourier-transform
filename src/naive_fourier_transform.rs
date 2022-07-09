@@ -1,4 +1,4 @@
-use crate::utilities::round;
+use crate::utilities::round_complex;
 use num::complex::Complex;
 use std::f64::consts::PI;
 
@@ -12,7 +12,7 @@ pub fn naive_fourier_transform(data: &[f64]) -> Vec<Complex<f64>> {
             sum_j +=
                 (data[k] as f64) * Complex::from_polar(1.0, -2.0 * PI * ((k * j) as f64) / nf64);
         }
-        v.push(Complex::new(round(sum_j.re, 2), round(sum_j.im, 2)));
+        v.push(round_complex(sum_j, 2));
     }
     v
 }
