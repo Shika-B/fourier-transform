@@ -16,7 +16,7 @@ const RED: &'static str = "#DD3355";
 const BLUE: &'static str = "#4287f5";
 const GREEN: &'static str = "#34eb56";
 
-// Discrete sin wave generation
+/// Discrete sin wave generation
 fn generate_sin_wave(range: usize, harmonic: i16) -> Vec<f64> {
     let mut v = vec![];
     for i in 0..range {
@@ -24,13 +24,12 @@ fn generate_sin_wave(range: usize, harmonic: i16) -> Vec<f64> {
     }
     v
 }
-
+/// Get the result of both the naive and fast fourier transform of `data`
 fn fourier_transforms(data: &mut Vec<f64>) -> (Vec<Complex<f64>>, Vec<Complex<f64>>) {
     (fast_fourier_transform(data), naive_fourier_transform(data))
 }
 
 fn main() {
-    // Plot only 128 points
     let plot_size = 128;
 
     let mut sinwave = generate_sin_wave(plot_size, 5);
@@ -54,7 +53,8 @@ fn main() {
     let view_real_frequencies = view_from_data(&real_frequencies, plot_size, BLUE);
     let view_imaginary_frequencies = view_from_data(&imaginary_frequencies, plot_size, GREEN);
 
-    // Saves the plot in .svg files. Open plots.html in your browser if you want to see them laid out next to each others in a single webpage
+    // Saves the plot in .svg files.
+    // Open `plots.html` in your browser if you want to see them laid out next to each others in a single webpage
     Page::single(&view_amplitudes)
         .save("plots/amplitude_plot.svg")
         .unwrap();
@@ -66,5 +66,6 @@ fn main() {
     Page::single(&view_imaginary_frequencies)
         .save("plots/imaginary_frequencies.svg")
         .unwrap();
+
     println!("Done !");
 }

@@ -2,8 +2,10 @@ use crate::utilities::round_complex;
 use num::complex::Complex;
 use std::f64::consts::PI;
 
+/// Should ideally be called with a `data` vector of length a power of two.
 pub fn fast_fourier_transform(data: &mut Vec<f64>) -> Vec<Complex<f64>> {
     let old_len = data.len();
+
     // Find smallest power of two bigger than data.len()
     let mut pow2: u32 = 0;
     loop {
@@ -15,10 +17,14 @@ pub fn fast_fourier_transform(data: &mut Vec<f64>) -> Vec<Complex<f64>> {
 
     // Pad data with zeroes so that data.len() is a power of 2
     data.resize(2usize.pow(pow2), 0.0);
+
     let mut v = fast_fourier_transform_2(&data, 0, data.len(), 1);
+
+    // Round floats to 2 decimal points
     for i in 0..v.len() {
         v[i] = round_complex(v[i], 2);
     }
+
     v.truncate(old_len);
     v
 }
