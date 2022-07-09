@@ -1,4 +1,4 @@
-# Signals and Fourier transform
+# Fourier transform
 Toy implementations of discrete naive and fast fourier transform algorithms. 
 
 Todo-list:
