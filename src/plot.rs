@@ -14,7 +14,7 @@ fn partial_plot(data: &[f64], amount_to_plot: usize, color: &'static str) -> Plo
         PointStyle::new()
             .marker(PointMarker::Circle)
             .colour(color)
-            .size(1.5),
+            .size(2.5),
     )
 }
 fn create_view(plot: Plot, plot_size: usize) -> ContinuousView {

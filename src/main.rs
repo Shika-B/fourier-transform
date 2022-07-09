@@ -3,6 +3,7 @@ mod naive_fourier_transform;
 mod plot;
 mod utilities;
 
+use num::complex::Complex;
 use plotlib::page::Page;
 
 use naive_fourier_transform::naive_fourier_transform;
@@ -23,14 +24,16 @@ fn generate_sin_wave(range: usize, harmonic: i16) -> Vec<f64> {
     }
     v
 }
-
+fn fourier_transforms(data: &mut Vec<f64>) -> (Vec<Complex<f64>>, Vec<Complex<f64>>) {
+    (fast_fourier_transform(data), naive_fourier_transform(data))
+}
 fn main() {
     // Plot only 128 points
-    let plot_size = 128;
+    let plot_size = 1023;
 
-    let sinwave = generate_sin_wave(plot_size, 5);
+    let mut sinwave = generate_sin_wave(plot_size, 50);
 
-    let frequencies = naive_fourier_transform(&sinwave);
+    let (frequencies, _frequencies2) = fourier_transforms(&mut sinwave);
 
     // Get the cos coefficients in Fourier series decomposition
     let cos_frequencies = frequencies
@@ -61,9 +64,5 @@ fn main() {
     Page::single(&view_cos_frequencies)
         .save("plots/cos_frequencies.svg")
         .unwrap();
-    println!(
-        "{:?}",
-        naive_fourier_transform(&sinwave) == fast_fourier_transform(&sinwave)
-    );
     println!("Done !");
 }
